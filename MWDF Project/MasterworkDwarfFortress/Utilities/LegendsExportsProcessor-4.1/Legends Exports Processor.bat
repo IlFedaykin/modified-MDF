@@ -20,7 +20,7 @@ rem  find DF, which is always in the folder exports go to, in %CD% or as if from
 IF EXIST "Dwarf Fortress.exe" (
     echo Found exports folder, script is already in folder
 ) else (
-    CD "..\..\..\Dwarf Fortress 0.40.*"
+    CD "..\..\..\Dwarf Fortress"
     IF NOT EXIST "Dwarf Fortress.exe" (
         echo Error: Dwarf Fortress Folder not found!
         goto finish
